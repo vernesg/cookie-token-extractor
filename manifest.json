@@ -1,0 +1,16 @@
+// {
+  "manifest_version": 2,
+  "name": "Facebook Cookie & Token Extractor",
+  "version": "1.0",
+  "description": "Extract Facebook cookies and access token when logged in on Kiwi Browser (Chromium-based).",
+  "permissions": [
+    "cookies",
+    "activeTab",
+    "storage",
+    "https://*.facebook.com/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Extract FB Cookie & Token"
+  }
+}
